@@ -1,0 +1,14 @@
+quarkus:
+  application:
+    name: customer-profile-msv
+
+  http:
+    port: 8080
+
+  datasource:
+    devservices:
+      enabled: false
+
+logging:
+  level:
+    root: INFO
